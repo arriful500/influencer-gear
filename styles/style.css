@@ -1,0 +1,112 @@
+body {
+  background: rgb(170, 170, 170);
+}
+
+.cart-logo {
+  width: 19px;
+  height: 19px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+
+}
+
+.nav-links>ul {
+  display: flex;
+  /* margin-right: 34px; */
+  gap: 34px;
+  align-items: center;
+
+}
+
+a {
+  text-decoration: none;
+
+}
+
+li {
+  list-style: none;
+}
+
+.banner-image {
+  background-image: url("/images/Circle\ design.svg");
+  background-repeat: no-repeat;
+
+}
+
+.banner-container {
+  display: flex;
+  gap: 140px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80PX;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.section-title {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.poor-collection {
+  margin-top: 150px;
+}
+
+.rating-img {
+  width: 16px;
+  height: 16px;
+}
+
+.star {
+  width: 11.07px;
+  height: 10.32px;
+}
+
+.card1 {
+  width: 329px;
+  height: 476px;
+  box-shadow: 0 0 40px  rgba(0, 0, 0, 0.15);
+  padding: 30px;
+  gap: 45px;
+  margin-top: 20px;
+}
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  
+
+}
+.feature{
+  display: flex;
+  margin-top: 170px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+.footer-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.footer-title{
+  text-align: center;
+  margin: 0 auto;
+}
+.footer{
+  margin-top: 150px;
+  background: rgb(7, 1, 22);
+  padding: 100PX;
+  color: white;
+}
